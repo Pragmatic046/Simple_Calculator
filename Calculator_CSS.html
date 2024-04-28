@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calulator.css">
+    <script src="calculator.js"></script>
+</head>
+
+<body>
+    <section>
+        <div id="main">
+            <div id="bar">
+                <h1 id="tag">Calculator</h1>
+                <input type="text" id="e-bar" readonly>
+            </div>
+            <div id="row">
+                <button class="button" onclick="show('1')">1</button><br>
+                <button class="button" onclick="show('2')">2</button><br>
+                <button class="button" onclick="show('3')">3</button><br>
+                <button class="button" onclick="show('/')">/</button><br>
+            </div>
+            <div id="row">
+                <button class="button" onclick="show('4')">4</button><br>
+                <button class="button" onclick="show('5')">5</button><br>
+                <button class="button" onclick="show('6')">6</button><br>
+                <button class="button" onclick="show('*')">*</button><br>
+
+            </div>
+            <div id="row">
+                <button class="button" onclick="show('7')">7</button><br>
+                <button class="button" onclick="show('8')">8</button><br>
+                <button class="button" onclick="show('9')">9</button><br>
+                <button class="button" onclick="show('+')">+</button><br>
+
+            </div>
+            <div id="row">
+                <button id="clear-btn" class="button" onclick="clear_display()">Clear</button><br>
+                <button class="button" onclick="show('0')">0</button><br>
+                <button class="button" onclick="calculate()">=</button><br>
+                <button class="button" onclick="show('-')">-</button><br>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

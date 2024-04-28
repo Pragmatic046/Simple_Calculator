@@ -1,0 +1,79 @@
+section {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+    /* align-items: center; */
+}
+
+#tag {
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'segoe ui';
+    color: cadetblue;
+    text-shadow: 0 0 10px cadetblue;
+}
+
+#main {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    border: 10px solid cadetblue;
+
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#bar {
+    position: relative;
+    top: 0;
+    left: 10px;
+}
+
+#e-bar {
+    background-color: rgb(202, 202, 202);
+    width: 80%;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'segoe ui';
+    font-weight: 700;
+
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 0 10px;
+}
+
+.button {
+    height: 50px;
+    width: 50px;
+    font-size: large;
+    font-weight: 700;
+    font-family: 'segoe ui';
+    margin: 5px;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(202, 202, 202);
+    transition: 200ms;
+}
+
+.button:hover {
+    background-color: cadetblue;
+    color: white;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    box-shadow: 0 0 5px cadetblue;
+}
+
+#clear-btn {
+    font-size: 15px;
+}

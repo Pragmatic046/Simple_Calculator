@@ -44,13 +44,13 @@ section {
     font-size: 15px;
     font-family: 'segoe ui';
     font-weight: 700;
-
     margin-bottom: 10px;
     border: none;
     outline: none;
     border-radius: 10px;
     outline: none;
     padding: 0 10px;
+    text-align: right;
 }
 
 .button {
